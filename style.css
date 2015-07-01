@@ -1,0 +1,173 @@
+#menu {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	background-color:#aaaaaa;
+	display:block;
+	clear:both;
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	border:1px solid #aaaaaa;
+	border-left:0px;
+	border-right:0px;
+}
+#menu li {
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+#menu li a {
+	display:block;
+	background-color:#aaaaaa;
+	font-family:Trebuchet MS, sans-serif;
+	color:white;
+	text-decoration:none;
+	border-bottom:0px;
+	margin:0px;
+	padding:0px;
+	font-size:20px;
+	padding-top:13px;
+	padding-bottom:13px;
+	padding-left:15px;
+	padding-right:10px;
+}
+#menu li a:hover {
+	color:black;
+}
+.clear {
+	clear:both;
+}
+.clear1 {
+	clear:both;
+	display:block;
+	height:1px;
+}
+#bigwrapper {
+	background-color:#dddddd;
+	clear:both;
+	padding:1.5%;
+}
+body {
+	margin:0px;
+	padding:0px;
+	font-family:"Bitstream Vera Sans", Verdana, sans-serif;
+	font-size:13px;
+	overflow-y:scroll;
+}
+/* ul#recent {
+	list-style-type:none;
+} */
+/* body#index #xrecent {
+	float:left;
+	width:25%;
+} */
+/* ul#recent li span {
+	display:block;
+	color:#C0C0C0;
+	font-size:8px;
+	text-align:right;
+} */
+/* ul#recent li a {
+	display:block;
+} */
+/* body#index #center {
+	float:right;
+	width:68%;
+	padding:1%;
+} */
+body#index #center {
+	padding:1%;
+}
+h1 {
+	display:none;
+}
+a {color:#aaaaaa;
+	text-decoration:none;
+	border-bottom:1px dotted #aaaaaa;
+}
+ul#fields {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+ul#fields li label, ul#fields li label span {
+	display:block;
+}
+ul#fields li label,ul#recent li a {
+	/* margin-top:10px;*/
+	color:#aaaaaa;
+	text-transform:uppercase;
+	font-size:11px;
+}
+/* ul#recent li a {
+	margin-bottom:5px;
+} */
+/* ul#recent li {
+	margin-bottom:2px;
+} */
+ul#fields li label:first-letter,ul#recent li a:first-letter {
+	font-size:130%;
+}
+a:hover {
+	border-bottom:1px solid #aaaaaa;
+}
+ul#fields li label select, ul#fields li label input {
+	font-size:11px;
+	margin-top:2px;
+	color:#3C3C3C;
+	display:block;
+}
+ul#fields li label textarea {
+	font-size:13px;
+}
+ul#fields #ms1 {
+	display:none;
+}
+ul#fields #ms2 {
+	height:50px;
+	margin-top:5px;
+	background-color:#aaaaaa;
+}
+p#footer {
+	padding:10px;
+	margin:5px;
+}
+input,select {
+	width:200px;
+}
+textarea {
+	width:80%;
+}
+input,textarea,select {
+	border:1px solid #aaaaaa;
+}
+body#index #center {
+	background-color:white;
+}
+div#t_entry h2 {
+	color:#aaaaaa;
+	text-transform:uppercase;
+	font-size:16px;
+	border-bottom:1px dotted #3c3c3c;
+	padding-bottom:3px;
+}
+div#t_entry h2:first-letter {
+	font-size:130%;
+}
+div#t_entry pre {
+	
+}
+div#t_entry address {
+	margin-top:50px;
+	color:#aaaaaa;
+	border-top:1px dotted #3c3c3c;
+	padding-top:3px;
+	padding-left:30px;
+	font-size:11px;
+}
+
+/* added by dfkt */
+#recent {
+	display:none !important;
+}
