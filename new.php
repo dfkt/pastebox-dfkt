@@ -231,7 +231,7 @@ else
 <li><label><span><?php echo _l('Type: '); ?></span><select name="type"><?php foreach($page->config['types'] as $type=>$name){?><option value="<?php echo $type; ?>"><?php echo $name; ?></option><?php } ?></select></label></li>
 <li><label><span><?php echo _l('Content: '); ?></span><textarea name="content" rows="30" cols="150"></textarea></label></li>
 <li><?php if ($config['captcha']) { /* echo _l('captcha');*/ ?><input id="ms1" type="submit" value="Submit" name="submit"><?php } ?><input id="ms2" type="submit" value="<?php echo _l('Post content'); ?>" name="xsubmit"></li>
-</ul></form><?php } ?></div><div class="clear"></div><p id="footer"><a href="http://pastebox.sf.net/">PasteBox v1.0.0</a> released under the MIT license | modified by DFKT</p></div></body></html><?php }
+</ul></form><?php } ?></div><div class="clear"></div><p id="footer"><a href="http://pastebox.sf.net/">PasteBox v1.0.0</a> released under the MIT license | modified by <a href="https://github.com/dfkt/pastebox-dfkt">DFKT</a></p></div></body></html><?php }
 
 
 /* END OF FUNCTIONS. */
